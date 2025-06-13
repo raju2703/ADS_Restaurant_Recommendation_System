@@ -37,8 +37,8 @@ conda create -n restaurant_recommender python=3.10
 conda activate restaurant_recommender
 
 # Clone the repository
-git clone https://github.com/prajwalnikam/ADS-Restaurant-recommendation-System.git
-cd Restaurant-Recommendation-System/Flask
+git clone https://github.com/raju2703/ADS_Restaurant_Recommendation_System.git
+cd ADS_Restaurant_Recommendation_System/Flask
 
 # Install dependencies
 pip install -r requirements.txt
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 cd Flask
 
 # Run the Flask web application
-python app1.py
+python app.py
 
 # Visit http://localhost:5000 to access the app
 ```
@@ -77,10 +77,10 @@ Restaurant-Recommendation-System/
 │   ├── __pycache__/                # Compiled Python cache files
 │   ├── static/                     # Static assets (Images)
 │   ├── templates/                  # HTML templates for the frontend
-│   ├── app1.py                     # Flask application entry point
+│   ├── app.py                     # Flask application entry point
 │   ├── Final_Development_Phase.ipynb  # Flask dev notebook
 │   ├── requirements.txt            # Python dependencies
-│   └── restaurant1.csv             # Restaurant dataset
+│   └── restaurant.csv             # Restaurant dataset
 ├── Model/
     └── Final_Development_Phase.ipynb  # Model training and evaluation notebook
 ```
